@@ -99,7 +99,3 @@ print('A')
 # assert n < 5, 'N is not lesser than 5' 
 print('B')
 
-x=1
-while x<5
-   print('Hi')
-   print('Bye')
