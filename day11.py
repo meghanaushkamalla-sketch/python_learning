@@ -5,10 +5,10 @@
 #     x += 2
 # print() # 1 3 5 7 9
 # x = 1
-while x <= 10:
-    print(x, end=' ')
-    x *= 2
-print() # 1 2 4 8
+#while x <= 10:
+#    print(x, end=' ')
+#    x *= 2
+#print() # 1 2 4 8
 # x = 10 
 # while x >= 0:          
 #     print(x, end=' ')
@@ -20,14 +20,14 @@ print() # 1 2 4 8
 #     x //= 2 
 # print() # 10 5 2 1
 
-# #else 
-# x = 1 
-# while x < 5:
-#     if x % 2 == 1:
-#         x += 1
-#         continue 
-#     print(x, end=' ') # 2 4
-#     x += 1
+#else 
+x = 1 
+while x < 5:
+    if x % 2 == 1:
+        x += 1
+        continue 
+    print(x, end=' ') # 2 4
+    x += 1
 # #else:
 # #    print('Loop completed successfully')
 # print()
