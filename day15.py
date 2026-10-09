@@ -18,21 +18,21 @@
 # print(z)
 # print()
 
-# #Type of arguments
-# def detail(name, age, rollno):
-#     print(f'My name is {name}')
-#     print(f'My age is {age}')
-#     print(f'My rollno is {rollno}')
-# detail('meghana', 20, 'A101')
-# detail(20, 'A101', 'meghana')
-# detail(age=20, rollno='A101', name='meghana')
-# detail(rollno='A101', age=20, name='meghana')
-# def add(a, b=10, c=20):
-#     return a + b + c 
-# print(add(1))
-# print(add(1,2))
-# print(add(1,2,3))
-# print(add(c=3, a=1, b=2))
+#Type of arguments
+def detail(name, age, rollno):
+    print(f'My name is {name}')
+    print(f'My age is {age}')
+    print(f'My rollno is {rollno}')
+detail('meghana', 20, 'A101')
+detail(20, 'A101', 'meghana')
+detail(age=20, rollno='A101', name='meghana')
+detail(rollno='A101', age=20, name='meghana')
+def add(a, b=10, c=20):
+    return a + b + c 
+print(add(1))
+print(add(1,2))
+print(add(1,2,3))
+print(add(c=3, a=1, b=2))
 
 # order of = in function def
 # def sub(a=10, b, c):
